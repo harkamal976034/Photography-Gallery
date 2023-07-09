@@ -12,7 +12,7 @@ const OurWork = () => {
 					.map((item) => (
 						<img src={Im} alt="" className="w-96 h-96 object-cover object-center rounded-3xl"></img>
 					))} */}
-                <OurWorkGallery />
+				<OurWorkGallery />
 			</div>
 		</div>
 	);
