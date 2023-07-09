@@ -1,5 +1,7 @@
+import AboutUs from "./AboutUs";
 import Carousel from "./Carousel";
 import Header from "./Header";
+import OurServices from "./OurServices";
 import OurWork from "./OurWork";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
 			<Header />
 			<Carousel />
 			<OurWork />
+			<AboutUs />
+			<OurServices />
 		</div>
 	);
 }
