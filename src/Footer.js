@@ -1,6 +1,5 @@
 import React from "react";
 import instagram from "./assets/instagram.png";
-import facebook from "./assets/facebook.png";
 import youtube from "./assets/youtube.png";
 
 const Footer = () => {
@@ -16,10 +15,10 @@ const Footer = () => {
 				</p>
 			</div>
 			<div className="mt-4 flex gap-6">
-				<a target="_blank" href="https://www.instagram.com/rohit_setia_photography/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+				<a target="_blank" rel="noreferrer" href="https://www.instagram.com/rohit_setia_photography/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
 					<img src={instagram} alt="Instagram" className="bg-whiteText p-1 rounded-full w-10 cursor-pointer" />
 				</a>
-				<a target="_blank" href="https://www.youtube.com/@rohitsetiaphotography9665">
+				<a target="_blank" rel="noreferrer" href="https://www.youtube.com/@rohitsetiaphotography9665">
 					<img src={youtube} alt="youtube" className="bg-whiteText p-1 rounded-full w-10 cursor-pointer" />
 				</a>
 			</div>
