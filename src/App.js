@@ -1,18 +1,13 @@
-import AboutUs from "./AboutUs";
-import Carousel from "./Carousel";
-import Header from "./Header";
-import OurServices from "./OurServices";
-import OurWork from "./OurWork";
+import { Route, Switch } from "react-router-dom";
+import Home from "./Home";
+import FolderImages from "./FolderImages";
 
 function App() {
 	return (
-		<div className="h-full w-full bg-darkBlueBg">
-			<Header />
-			<Carousel />
-			<OurWork />
-			<AboutUs />
-			<OurServices />
-		</div>
+		<Switch>
+			<Route exact path="/" component={Home} />
+			<Route path="/type/:name" component={FolderImages} />
+		</Switch>
 	);
 }
 
